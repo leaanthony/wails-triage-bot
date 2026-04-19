@@ -1,0 +1,16 @@
+# Secrets — never commit
+.env
+.env.local
+
+# Local dev config (Claude Code skills, commands, settings)
+.claude/
+
+# Go build artefacts
+*.test
+/bin/
+/tmp/
+/wails-triage
+/wails-triage-bot
+
+# Phase 1 intermediate
+issues.db.tmp
